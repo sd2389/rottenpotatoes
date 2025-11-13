@@ -45,4 +45,26 @@ yarn-debug.log*
 # Ignore submission guide
 SUBMISSION_GUIDE.md
 
+# Ignore Sprockets cache
+.sprockets-cache
+tmp/cache/assets
+
+# Ignore development secret files
+/config/development_secret.txt
+/config/local_secret.txt
+
+# Ignore .keep files in assets (if you don't want to track them)
+# Uncomment if you don't want to commit .keep files
+# app/assets/**/.keep
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
 
